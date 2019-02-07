@@ -18,6 +18,25 @@
   color: white;
 }
 
+.cards {
+  width: 250px;
+  height: 350px;
+  background-color: red;
+  background-image: url('https://placekitten.com/250/350');
+  display: inline-block;
+  margin: 5px;
+}
+
+.activeCard {
+  width: 250px;
+  height: 350px;
+  background-color: green;
+  display: inline-block;
+  margin: 5px;
+  vertical-align: top;
+  
+}
+
 .App-link {
   color: #61dafb;
 }
